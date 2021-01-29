@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+/* nav*/
+.navbar {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  height: 95px;
+  margin-right: 0px;
+  top: 0;
+}
+/*imagem logo*/
+.navbar img {
+  display: flex;
+  align-items: initial;
+  float: left;
+  margin-top: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  height: 75px;
+}
+/*menu*/
+.navbar li {
+  color: rgb(61, 61, 61);
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-right: 5vw;
+  text-decoration: none;
+  list-style:none;
+  text-decoration: none;
+}
+#cla {
+  display: none;
+}
+
+/*.........................................*/
+.banner {
+  background-image: url(imagens/mulhermaravilha.png);
+  height: 800px;
+  width: auto;
+  margin-top: 100px;
+}
+.banner h1 {
+  font-size: 8rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-left: 100px;
+}
+.banner p {
+  font-size: 3.1rem;
+  margin: 0;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-left: 100px;
+}
+.banner button {
+  background-color: white;
+  border-radius: 50px;
+  border-style: none;
+  color: orangered;
+  cursor: pointer;
+  font-size: 2rem;
+  height: 85px;
+  width: 250px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 620px;  
+}
+.content{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;  
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flexbox;
+  flex-wrap: wrap;
+
+}
+.content input{
+  width: 300px;
+  height: 40px;
+}
+
+.content button{
+  height: 40px;
+  width: auto;
+  margin-left: 5px;
+  display: flexbox;
+  flex-wrap: wrap;
+  background-color: orangered;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/*..........................................*/
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+.galeria img {
+  height: 210px;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.galeria p{
+    color: rgb(61, 61, 61);
+    font-size: 1.2rem;
+}
+.config_botoes{
+  background-color: orangered;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+.config_botoes button{
+    background-color: transparent;
+    border: 2px solid #cd511e;
+    color: orangered;
+}
+/*..............................*/
+.frase{
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 95px;
+  margin-left: 100px;
+}
+.frase aside{
+  background-color:rgb(36, 36, 36);
+  color: white;
+  width: max-content;
+  margin: 2px;
+  height: 3rem;
+  margin-right: 300px;
+}
+/*.......................*/
+.destaquedomes {
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+ } 
+.destaquedomes h3{
+  color: white;
+  display: flex;  
+}
+.destaquedomes h2{
+  align-items: center;
+    color: #cd511e;
+    display: flex;
+    flex-direction:column;
+    align-content: space-around;
+    height: 500px;
+    justify-content: center;
+}
+.destaquedomes img{
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  padding: 50px;
+  margin: 0;
+}
+.destaquedomes p{
+  color: white;
+  font-size: 1.2re;
+  line-height: 1.6;
+  width: 40%;
+  
+}
+.footer{
+  align-items: center;
+  background-color: orangered;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+
+}
+  
