@@ -212,4 +212,27 @@ body {
   justify-content: center;
 
 }
+form input[type=text], [type=email]:focus{
+  outline: none;
+}
+
+button:hover {
+  background-color: plum;
+  border: none;
+  color: black;
+}
+
+.icones-img {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 200px;
+}
+.icones-text {
+  color: white;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
   
