@@ -181,14 +181,12 @@ body {
   height: 500px;
   justify-content: center;
 } 
-
 .destaquedomes h3{
   color: white;
   display: flex; 
   justify-content: left;
   margin-top: 0;
   margin-bottom: 0;
-  
 }
 .destaquedomes h2{
   align-items: center;
@@ -198,7 +196,6 @@ body {
   height: 200px;
   margin-top: 0;
   margin-bottom: 0;
-  
 }
 .destaquedomes img{
   border-radius: 100%;
@@ -213,39 +210,33 @@ body {
   line-height: 1.6;
   width: 40%;
   margin-top: 0;
-  margin-bottom: 0;
-  
+  margin-bottom: 0;  
+  font-t
 }
 .footer{
   align-items: center;
   background-color: orangered;
   display: flex;
   height: 200px;
-  justify-content: center;
-  
+  justify-content: center; 
 }
 form input[type=text], [type=email]:focus{
   outline: none;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center; 
 }
-
 button:hover {
   background-color: plum;
   border: none;
   color: black;
 }
-
 .icones-img {
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
   padding-left: 20px;
-  width: 200px;
-
-  
+  width: 200px; 
 }
 .icones-text {
   color: white;
