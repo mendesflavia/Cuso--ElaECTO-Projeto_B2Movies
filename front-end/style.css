@@ -90,7 +90,10 @@ body {
   margin-left: 5px;
   display: flexbox;
   flex-wrap: wrap;
-
+  margin-top: 50px;
+}
+.content h3{
+ text-align: center;  
 }
 .content input{
   width: 300px;
@@ -159,6 +162,7 @@ body {
   justify-content: space-around;
   margin-top: 95px;
   margin-left: 100px;
+  margin-bottom: 100px;
 }
 .frase aside{
   background-color:rgb(36, 36, 36);
@@ -183,12 +187,12 @@ body {
 }
 .destaquedomes h2{
   align-items: center;
-    color: #cd511e;
-    display: flex;
-    flex-direction:column;
-    align-content: space-around;
-    height: 500px;
-    justify-content: center;
+  color: #cd511e;
+  display: flex;
+  flex-direction:column;
+  align-content: space-around;
+  height: 500px;
+  justify-content: center;
 }
 .destaquedomes img{
   border-radius: 100%;
