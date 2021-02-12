@@ -38,9 +38,8 @@ body {
   padding-right: 5vw;
 }
 .navbar li a{
-  text-decoration: none;
   list-style-type: none;
-  text-decoration: underline;
+  text-decoration: none;
 }
 /*.........................................*/
 .banner {
