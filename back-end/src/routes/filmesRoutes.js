@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const controller = require("../controller/animesController");
+const controller = require("../controller/filmesController");
 
 router.get("/", controller.listarTodosfilmes);
 router.get("/:id", controller.pesquisaPorId);
