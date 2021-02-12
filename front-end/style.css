@@ -180,6 +180,8 @@ body {
 } 
 .destaquedomes div{
   width: 40%;
+  display: -ms-flexbox;
+  height: 800px;
 }
 .destaquedomes h3{
   color: white;
@@ -193,9 +195,11 @@ body {
   border-radius: 100%;
   height: 500px;
   width: 500px;
-  align-items: center;
+}
+div .img{
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 .destaquedomes p{
   display: flex;
@@ -233,6 +237,11 @@ button:hover {
   padding-top: 40px;
   padding-left: 20px;
   width: 200px; 
+}
+icones div{
+  display: flex;
+  width: max-content;
+  margin-left: 5px;
 }
 .icones-text {
   color: white;
