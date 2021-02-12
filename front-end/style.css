@@ -41,10 +41,6 @@ body {
   list-style-type: none;
   text-decoration: underline;
 }
-#classificaçao {
-  display: none;
-}
-
 /*.........................................*/
 .banner {
   background-image: url(imagens/mulhermaravilha.png);
@@ -85,6 +81,7 @@ body {
   margin-top: 100px;
   margin-left: 620px;  
 }
+/*......................................*/
 .content{
   font-size: 1.2rem;
   display: flex;
@@ -102,7 +99,6 @@ body {
   width: 300px;
   height: 40px;
 }
-
 .content button{
   height: 40px;
   width: auto;
@@ -126,7 +122,6 @@ body {
   height: 800px;
   justify-content: center;
   flex-wrap: wrap;
- 
 }
 .galeria img {
   height: 210px;
@@ -215,6 +210,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;  
 }
+/*..................................*/
 .footer{
   align-items:center;
   background-color: orangered;
