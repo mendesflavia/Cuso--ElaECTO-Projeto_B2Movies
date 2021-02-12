@@ -184,6 +184,8 @@ body {
   display: flex; 
   justify-content: space-around;
   padding-right: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 .destaquedomes h2{
@@ -200,6 +202,7 @@ body {
   width: 300px;
   padding: 50px;
   margin: 0;
+  margin-top: 100px;
 }
 .destaquedomes p{
   color: white;
