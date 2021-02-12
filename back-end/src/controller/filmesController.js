@@ -1,4 +1,4 @@
-const animes = require('../modal/filmes.json');
+const filmes = require('../modal/filmes.json');
 const fs = require('fs');
 
 const listarTodosflmes = (request, response) => {
