@@ -9,8 +9,8 @@ app.listen(port, () => {
 
 app.use(bodyParser.json());
 
-const index = require('./src/routes/index');
-const animes = require('./src/routes/filmesRoutes');
+const index = require('./src/routes/index.js');
+const filmes = require('./src/routes/filmesRoutes.js');
 
 app.use("/", index);
 app.use("/filmes", filmes);
